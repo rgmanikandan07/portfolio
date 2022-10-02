@@ -1,0 +1,121 @@
+@import url('http://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+*{
+    font-family: 'Nunito',sans-serif;
+    margin:0; 
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+*::selection{
+    background: yellow;
+    color: #333;
+}
+.html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.body{
+    background: #111;
+    overflow-x: hidden;
+    padding-left: 35rem;
+} 
+.section{
+    min-height: 100%;
+    /* padding: 1rem; */
+}
+.user-bg{
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 30rem;
+    background: #363434;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+.user img{
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--yellow);
+}
+.user .name{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.user .post{
+    font-size: 1.5rem;
+    color: #eee;
+}
+.navbar{
+    width: 50%;
+    height: 38%;
+}
+.navbar ul{
+    list-style: none;
+    padding: 1rem 3rem;
+}
+.navbar ul a{
+    display: block;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5rem;
+}
+.navbar ul li a:hover{
+    background: yellow;
+}
+
+.home{
+    /* display: flex; */
+    text-align: center;
+    flex-flow: column;
+    padding-top: 200px;
+    margin-left: 475px;
+    background: #333;
+    padding: 150px;
+}
+.home h3{
+    font-size: 2.5rem;
+    color: #fff;
+    /* margin-right: 300px; */
+}
+.home h1 span{
+    color: yellow;
+}
+.home h1{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #fff;
+    /* margin-right: 130px; */
+}
+.home p{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+.home .btn{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.home .btn a{
+    color: #333;
+}
+.home .btn:hover{
+    background-color: yellow;
+}
+
+
