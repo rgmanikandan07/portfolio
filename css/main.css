@@ -118,4 +118,27 @@
     background-color: yellow;
 }
 
+.about{
+    margin-left: 470px;
+    text-align: center;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.info li{
+    text-align: left;
+    margin-top: 30px;
+    list-style-type: none;
+    padding-left: 380px;
+}
+.info li span{
+    color: yellow;
+}
+/* .info h3 span{
+    padding-left: 20px;
+} */
+.about h1 span{
+    color: yellow;
+}
 
